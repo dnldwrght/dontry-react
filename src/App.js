@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reloads.
         </p>
         <a
           className="App-link"
@@ -16,7 +16,12 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <Button />
+          <Button
+  onPress={onPressLearnMore}
+  title="Learn More"
+  color="#841584"
+  accessibilityLabel="Learn more about this purple button"
+/>
         </a>
       </header>
     </div>
