@@ -18,7 +18,6 @@ function App() {
           Learn React or
         </a>
       </header>
-      <section>Information</section>
     </div>
   );
 }
