@@ -15,15 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-          <Button
-  onPress={onPressLearnMore}
-  title="Learn More"
-  color="#841584"
-  accessibilityLabel="Learn more about this purple button"
-/>
+          Learn React or
         </a>
       </header>
+      <section>Information</section>
     </div>
   );
 }
